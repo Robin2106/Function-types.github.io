@@ -25,6 +25,6 @@ evenNumber(52);
 // Returning an Object
 
 const studentDetails = () =>({Name : 'Robin A', Subject : 'BCA'});
-console.log(studentDetails);
+const studentInfo = studentDetails();
+console.log(studentInfo.Name);
 
-// Doubt How to print only name 
