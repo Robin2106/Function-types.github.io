@@ -27,8 +27,8 @@ function substraction(oneNumber)
     return result;
 }
 
-let Answer= substraction(50);
-console.log(Answer(85));
+let output= substraction(50);
+console.log(output(85));
 
 
 // Take another function as argument and return a function
